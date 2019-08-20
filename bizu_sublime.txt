@@ -1,0 +1,77 @@
+SUBLIME PASSO A PASSO:
+
+1-BAIXAR VERSAO PORTABLE
+https://www.sublimetext.com/3
+
+2-instalar package control
+https://packagecontrol.io/installation
+
+3-instalar package OCN
+    3-1 Package control add repository
+    https://github.com/myamashita/OCN_opener
+    https://github.com/myamashita/OCN_run_script
+    https://github.com/myamashita/OCN_terminal
+    https://github.com/myamashita/OCN_DeCompress
+    3-2 Package control install package
+
+4-configurar package OCN
+    4-1 OCN_run_script Setting Prompt
+    {
+        "prompt": "C:\\Users\\aojq\\Documents\\Conda\\Python3.6\\envs\\OCEANOP27\\python.exe",
+    }
+    4-1 OCN_run_script Setting Pcript
+    [
+        {
+            "caption": "Pyvistu",
+            "command": "open_script",
+            "args": {
+                "script": ["C:\\Users\\aojq\\Documents\\pyvistu\\branches\\sta  ble\\pyvistu.py"]
+            }
+        },
+    ]
+    4-2 OCN_terminal Settings
+    {
+      "terminal": "C:\\Users\\aojq\\Documents\\Conda\\Python3.6\\envs\\OCEANOP 27\\Scripts\\ipython.exe",
+      "parameters": ["--pylab"]
+    }
+
+5-instalar (nice-important) package 
+    5-1 Jedi - Python autocompletion
+    5-2 Compare Side-By-Side
+    5-3 Color Highlighter
+    5-4 Python PEP8 Autoformat
+    5-5 Rainbowth
+    5-6 Sublimelinter
+    5-7 SublimeLinter-pycodestyle
+
+
+6-configs (nice-important) package 
+    6-1 [5-1] Jedi Setings
+    {
+        // Used to get the `PYTHONPATH`.
+        "python_interpreter": "C:/Users/aojq/Documents/python2.7/   pythonw__.exe",
+    
+        // Additional python package paths.
+        "python_package_paths": [],
+        "auto_complete_function_params": "all"
+    }
+    6-2 [5-1] Jedi Setings at Preferences/Settings
+    {
+        "auto_complete_triggers": [{"selector": "source.python",    "characters": "."}],
+    }
+    6-3 [5-3] Color Highlighter Settings
+    {
+        "ha_style": "filled",
+        "style": "filled"
+    }
+    6-4 [5-5] Rainbowth 
+    create at ...sublime\Data\Packages\User***
+    Rainbowth.sublime-settings
+    {
+      "languages": ["python"],
+      "palettes": {
+        "default": ["red", "orange", "yellow", "green", "blue", "indigo",   "violet"]
+      },
+    }
+
+7-configs user

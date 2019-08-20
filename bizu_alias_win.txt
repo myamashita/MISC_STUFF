@@ -1,0 +1,14 @@
+## --
+Create a .cmd file with your DOSKEY commands.
+Run regedit and go to HKEY_CURRENT_USER\Software\Microsoft\Command Processor
+"Add String Value" entry with the name "AutoRun" and the full path of your .alias.cmd file.
+%USERPROFILE%\.alias.cmd
+"Valor da cadeia de caracteres"
+
+@echo off
+
+DOSKEY py27="C:/Users/aojq/Documents/Conda/Python3.6/envs/OCEANOP27/Scripts/activate.bat"
+DOSKEY ipy27="C:/Users/aojq/Documents/Conda/Python3.6/envs/OCEANOP27/Scripts/ipython.exe"
+DOSKEY py36="C:/Users/aojq/Documents/Conda/Python3.6/envs/OCEANOP36/Scripts/activate.bat"
+DOSKEY ipy36="C:/Users/aojq/Documents/Conda/Python3.6/envs/OCEANOP36/Scripts/ipython.exe"
+## --

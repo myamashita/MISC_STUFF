@@ -1,0 +1,40 @@
+1- Instalar VS Code
+    https://code.visualstudio.com/
+2- Pacotes
+    Python - Microsoft
+    Bracket Pair Colorizer 2 - CoenraadS
+    Portuguese - Microsoft
+3- Setup in settings.json
+    C:\Users\aojq\AppData\Roaming\Code\User\settings.json
+
+{
+    "[plaintext]": {},
+    "[python]": {},
+    "python.pythonPath": "C:\\Users\\aojq\\Documents\\Conda\\Python3.6\\envs\\OCEANOP27\\python.exe",
+    "python.venvPath": "C:\\Users\\aojq\\Documents\\Conda\\Python3.6\\envs",
+    "python.autoComplete.addBrackets": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.terminal.executeInFileDir": true,
+    "editor.wordWrap": "on",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Path": "C:\\Users\\aojq\\Documents\\Conda\\Python3.6\\envs\\OCEANOP27\\Scripts\\pycodestyle.exe",
+    "python.linting.pep8Args": ["--ignore=E402" ],
+    "editor.rulers": [80, 120],
+    "python.formatting.autopep8Path": "C:\\Users\\aojq\\Documents\\Conda\\Python3.6\\envs\\OCEANOP27\\Scripts\\autopep8.exe",
+    "python.jediPath": "C:\\Users\\aojq\\Documents\\Conda\\Python3.6\\envs\\OCEANOP27\\Lib\\site-packages\\jedi",
+    "python.jediEnabled": false,
+    "window.zoomLevel": 1,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.cwd": "${fileDirname}",
+    "update.enableWindowsBackgroundUpdates": false,
+    "telemetry.enableCrashReporter": false,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.terminal.activateEnvironment": false,
+    "bracket-pair-colorizer-2.colors": ["white", "DarkKhaki", "Coral", "aqua",
+        "lime", "RosyBrown", "Gold", "Orchid", "fuchsia"],
+    "http.proxy": "http://AOJQ:tRi3zAq1@inet-sys.petrobras.com.br:8080/",
+    "workbench.startupEditor": "newUntitledFile"
+
+}

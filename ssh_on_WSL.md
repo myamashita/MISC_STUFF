@@ -29,7 +29,11 @@ run the command
 >sudo visudo  
 
 add the following line
->%sudo ALL=NOPASSWD: /usr/sbin/sshd after %sudo  ALL=(ALL:ALL) ALL  
+>%sudo ALL=NOPASSWD: /usr/sbin/sshd  
+>%sudo ALL=NOPASSWD: /etc/init.d/ssh  
+
+after  
+>%sudo  ALL=(ALL:ALL) ALL  
 
 You can test that you don’t need a sudo password when you start ssh by running
 >sudo service ssh --full-restart  
@@ -59,6 +63,9 @@ if ssh is not running)
 * Under Add arguments (optional):  
 
 >-c "sudo /etc/init.d/ssh start"  
+
+* Check Security options in Genereal tab  
+**Run whether user is logged on or not**
 
 ## 6.Conclusion  
 **You should now have SSH enabled as a service that automatically starts on boot on your Windows Subsystem for Linux (WSL)**

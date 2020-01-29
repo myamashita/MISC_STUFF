@@ -28,7 +28,7 @@ Then run this command:
 run the command
 >sudo visudo  
 
-add the following line
+add the following lines
 >%sudo ALL=NOPASSWD: /usr/sbin/sshd  
 >%sudo ALL=NOPASSWD: /etc/init.d/ssh  
 
@@ -64,7 +64,7 @@ if ssh is not running)
 
 >-c "sudo /etc/init.d/ssh start"  
 
-* Check Security options in Genereal tab  
+* Check Security options in General tab  
 **Run whether user is logged on or not**
 
 ## 6.Conclusion  

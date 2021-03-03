@@ -1,0 +1,49 @@
+Anaconda archive
+https://repo.anaconda.com/archive/
+lastest anaconda
+https://www.anaconda.com/products/individual
+
+1 step instalation
+environment activated
+2 conda update 
+conda update --prefix C:\Users\marcio.yamashita\Fugro\python_dist-2020_11 anaconda
+3 install packages
+conda install cartopy cdsapi colorcet configparser erddapy Folium geckodriver geopy ioos_qc ipyleaflet ipympl iris jupyter_contrib_core jupyter_nbextensions_configurator jupyter_contrib_nbextensions metpy pyinstaller siphon xarray pygrib python-docx pypdf2 selenium python-chromedriver-binary seawater --channel conda-forge
+4 update jupyter kernel
+share/jupyter/kernels/python3/kernel.json
+from
+{
+ "argv": [
+  "C:/Users/marcio.yamashita/Fugro/python_dist-2020_11\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3",
+ "language": "python"
+}
+to
+{
+ "argv": [
+  "python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3.8.5 64-bit ('base': conda)",
+ "language": "python"
+}
+5 fix tools
+build_shortcuts.bat
+ipy_plab.ico
+ipython.ico
+jupyter.ico
+setenv.py
+setup.bat
+shortcuts.vbs
+
+6 remove pkgs folder
+7size full 8.88 GB (9,537,114,112 bytes)
+

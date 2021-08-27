@@ -1,0 +1,20 @@
+net use 
+net use H: "\\ushouvnxfs.fugro.pvt\Geos\Bcontracts"
+net use K: "\\ushouvnxfs.fugro.pvt\Geos\Contracts"
+net use N: "\\ushouvnxfs.fugro.pvt\Geos\Marketing"
+net use P: "\\ushouvnxfs.fugro.pvt\Geos\Operations"
+net use Q: "\\ushouvnxfs.fugro.pvt\Geos\Organizations"
+net use U: "\\ushouvnxfs.fugro.pvt\Geos\Technical"
+net use V: "\\ushouvnxfs.fugro.pvt\Geos"
+
+\\10.44.0.38\sgi\03 - Nível 3 - Procedimentos, Formulários e Anexos\04 - Recursos Humanos
+\\10.44.0.38\USERS$\marcio.yamashita
+
+\\ushouisifs.ad.fugro.com
+net use H: "\\ushouisifs.ad.fugro.com\Geos\Bcontracts"
+net use K: "\\ushouisifs.ad.fugro.com\Geos\Contracts"
+net use N: "\\ushouisifs.ad.fugro.com\Geos\Marketing"
+net use P: "\\ushouisifs.ad.fugro.com\Geos\Operations"
+net use Q: "\\ushouisifs.ad.fugro.com\Geos\Organizations"
+net use U: "\\ushouisifs.ad.fugro.com\Geos\Technical"
+net use V: "\\ushouisifs.ad.fugro.com\Geos"

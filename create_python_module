@@ -1,1 +1,8 @@
+#To update fugropylib
+Update setup.py, MANIFEST.in
+Update __init__.py inside fugropylib
+
+
+###
 python setup.py sdist
+###
